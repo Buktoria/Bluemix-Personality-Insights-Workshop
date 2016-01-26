@@ -3,8 +3,8 @@ import pprint
 import requests #http://docs.python-requests.org/en/latest/user/quickstart/
 
 pp = pprint.PrettyPrinter(indent=2)
-username = ""
-password = ""
+username = "df2b5178-d39e-44b5-bf37-c5a14848507e"
+password = "VK1HwJ10Ym7b"
 
 
 class PersonalityInsightsInterface(object):
@@ -89,4 +89,4 @@ if __name__ == '__main__':
             # pp.pprint(profile)
 
             # Flattened data
-            pp.pp(persinal_insights._profile_map(profile))
+            pp.pprint(persinal_insights._profile_map(profile))
